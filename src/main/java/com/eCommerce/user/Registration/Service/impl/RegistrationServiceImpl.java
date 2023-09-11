@@ -6,9 +6,6 @@ import org.springframework.http.RequestEntity;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
-import java.net.http.HttpRequest;
-import java.net.http.HttpResponse;
-
 @Service
 public class RegistrationServiceImpl implements RegistrationService {
     @Override

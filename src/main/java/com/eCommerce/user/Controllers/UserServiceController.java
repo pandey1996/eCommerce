@@ -7,9 +7,6 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PostMapping;
 
-import javax.swing.text.html.parser.Entity;
-import java.net.http.HttpResponse;
-
 @Controller("/user")
 public class UserServiceController {
     private final RegistrationService registrationService;
